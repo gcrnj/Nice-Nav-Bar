@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="5dp">
+
+    <View
+        android:id="@+id/niceNavigationVAccent"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:background="@color/purple_200"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/niceNavigationTxtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123" />
+</LinearLayout>

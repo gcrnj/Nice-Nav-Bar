@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomNavView">
+        <attr name="nice_nav_accent_color" format="color" />
+
+        <attr name="nice_nav_checked_text_color" format="color" />
+        <attr name="nice_nav_unchecked_text_color" format="color" />
+        <!-- Add more custom attributes here -->
+
+    </declare-styleable>
+
+</resources>

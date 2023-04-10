@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.giotech.nice_nav_bar.NiceNavBar
+            android:id="@+id/customNavView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/layout_dashboard_nav_header"
+            app:nice_nav_accent_color="@color/teal_200"
+            app:nice_nav_checked_text_color="@color/purple_700"
+            app:nice_nav_unchecked_text_color="@color/purple_200" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
